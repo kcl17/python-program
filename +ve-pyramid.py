@@ -6,7 +6,7 @@ while m == True:
         print("* "*i, "\n")
         i += 2
         n -= 1
-    m = input("Do you want to run the program again? (y/n): ")
+    m = input("repeat the program? (y/n): ")
     if m == "y":
         m = bool(1)
     else:
