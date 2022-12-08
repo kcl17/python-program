@@ -8,7 +8,7 @@ while inp == True:
     else:
         print("special character")
 
-    inp = input("Do you want to run the program again? (y/n):")
+    inp = input("repeat the program? (y/n):")
     if inp == "y":
         inp = bool(1)
     else:
