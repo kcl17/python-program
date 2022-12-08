@@ -4,7 +4,7 @@ while l == True:
     while n != 0:
         print("* "*n)
         n -= 1
-    l = input("Do you want to run the program again? (y/n): ")
+    l = input("repeat the program? (y/n): ")
     if l == "y":
         l = bool(1)
     else:
